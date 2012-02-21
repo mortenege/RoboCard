@@ -67,7 +67,7 @@ void motion_control(int8_t* data, uint8_t len){
 	//}
 	int8_t left = data[0];
 	int8_t right = data[1];
-	m_one_drive(left);
-	m_two_drive(right);
+	m_one_drive(right);
+	m_two_drive(left);
 }
 
